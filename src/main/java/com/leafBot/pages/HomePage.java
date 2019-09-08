@@ -12,7 +12,8 @@ public class HomePage extends ProjectSpecificMethods{
 		PageFactory.initElements(driver, this);
 	}
 	@CacheLookup
-	@FindBy(id = "username") WebElement eleUserName;
+	@FindBy(id = "username")
+	WebElement eleUserName;
 //	@CacheLookup
 	@FindBy(id="password") WebElement elePassword;
 	@FindBy(className = "decorativeSubmit") WebElement eleLogin;
